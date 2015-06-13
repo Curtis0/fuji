@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Foodfestivals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>What</th>
+      <th>Where</th>
+      <th>When time</th>
+      <th>When start</th>
+      <th>When finish</th>
+      <th>Why</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @foodfestivals.each do |foodfestival| %>
+      <tr>
+        <td><%= foodfestival.what %></td>
+        <td><%= foodfestival.where %></td>
+        <td><%= foodfestival.when_time %></td>
+        <td><%= foodfestival.when_start %></td>
+        <td><%= foodfestival.when_finish %></td>
+        <td><%= foodfestival.why %></td>
+        <td><%= link_to 'Show', foodfestival %></td>
+        <td><%= link_to 'Edit', edit_foodfestival_path(foodfestival) %></td>
+        <td><%= link_to 'Destroy', foodfestival, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Foodfestival', new_foodfestival_path %>

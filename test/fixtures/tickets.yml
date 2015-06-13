@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 1
+  email_address: MyString
+  tent_site: false
+  notes: MyText
+
+two:
+  name: MyString
+  price: 1
+  email_address: MyString
+  tent_site: false
+  notes: MyText

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>What:</strong>
+  <%= @foodfestival.what %>
+</p>
+
+<p>
+  <strong>Where:</strong>
+  <%= @foodfestival.where %>
+</p>
+
+<p>
+  <strong>When time:</strong>
+  <%= @foodfestival.when_time %>
+</p>
+
+<p>
+  <strong>When start:</strong>
+  <%= @foodfestival.when_start %>
+</p>
+
+<p>
+  <strong>When finish:</strong>
+  <%= @foodfestival.when_finish %>
+</p>
+
+<p>
+  <strong>Why:</strong>
+  <%= @foodfestival.why %>
+</p>
+
+<%= link_to 'Edit', edit_foodfestival_path(@foodfestival) %> |
+<%= link_to 'Back', foodfestivals_path %>

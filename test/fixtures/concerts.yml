@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist: MyString
+  date: 2015-06-06
+  start_time: 2015-06-06 20:22:52
+  finish_time: 2015-06-06 20:22:52
+  cost: 1
+
+two:
+  artist: MyString
+  date: 2015-06-06
+  start_time: 2015-06-06 20:22:52
+  finish_time: 2015-06-06 20:22:52
+  cost: 1

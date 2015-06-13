@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  what: MyString
+  where: MyString
+  when_time: 2015-06-06 20:37:57
+  when_start: 2015-06-06
+  when_finish: 2015-06-06 20:37:57
+  why: MyString
+
+two:
+  what: MyString
+  where: MyString
+  when_time: 2015-06-06 20:37:57
+  when_start: 2015-06-06
+  when_finish: 2015-06-06 20:37:57
+  why: MyString
